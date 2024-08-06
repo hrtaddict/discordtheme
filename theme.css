@@ -132,7 +132,12 @@
 
 /* rotating pfp upon hover */
 
-.avatar__08316:hover.clickable_d866f1:hover {
+.avatar_f9f2ca.clickable_f9f2ca {
+  filter: drop-shadow(0 0 5px);
+  color: #ff0000;
+}
+
+.avatar_f9f2ca:hover.clickable_f9f2ca:hover {
   filter: drop-shadow(0 0 8px);
   color: #ff0000;
   transform: scale(1.2) rotate(360deg); 
